@@ -22,7 +22,7 @@ public class Exercise_08
 		var ten = 10;
 		for(var i = 0; i <= ten; i++)
 		{
-			Console.WriteLine("{1} * {2} = {3}", number, i, number * i);	
+			Console.WriteLine("{0} * {1} = {2}", number, i, number * i);	
 		}
 	}
 }
