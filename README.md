@@ -3,4 +3,4 @@ This repository contains exercises and solutions to problems found throughout th
 
 ## w3resources.com
 1. Basic Declatations and Expressions: Exercises, Practice, and Solutions 
-<br>C# Basic Exercises [53 exercises with solution]
+<br>C# Basic Exercises [53 exercises with solution]. <a href="https://www.google.com" target="_blank">Solutions</a>
