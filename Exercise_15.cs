@@ -12,9 +12,19 @@ public class Exercise_15
 		 *
 		 *
 		 * 	By: Jesus Hilario Hernandez
-		 * 	Last Updated: October 5th 2017
+		 * 	Last Updated: October 6th 2017
 		 *
 		 ********************************************************************/
+		var word = "w3resource";
+		Console.WriteLine(word.Remove(1, 1));
+		Console.WriteLine(word.Substring(0, 9));
+		Console.WriteLine(word.Remove(0, 1));
+		Console.WriteLine();
+		
+	/********************************
+	    W3resource.com's Solution			
+	*********************************/
+		
 		Console.WriteLine(remove_char("w3resource", 1));
 		Console.WriteLine(remove_char("w3resource", 9));
 		Console.WriteLine(remove_char("w3resource", 0));
