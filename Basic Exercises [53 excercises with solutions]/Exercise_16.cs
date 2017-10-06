@@ -1,7 +1,7 @@
 /******************************************************************** 
 *
-*	15. Write a program remove specified a charcter from a non-empty
-*		string using index of a character.
+*	16. Write a program remove specified a charcter from a non-empty
+*	    string using index of a character.
 *
 *
 * 	By: Jesus Hilario Hernandez
