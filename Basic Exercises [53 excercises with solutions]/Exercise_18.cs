@@ -47,3 +47,6 @@ public class Exercise_18
 		Console.WriteLine((x < 0 && y > 0) || (x > 0 && y < 0));
 	}
 }
+// Resources used:
+// 1. https://www.tutorialspoint.com/csharp/csharp_logical_operators.htm
+// 2. https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-18.php
