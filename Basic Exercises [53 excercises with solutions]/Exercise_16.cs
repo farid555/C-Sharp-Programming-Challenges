@@ -1,6 +1,17 @@
+/******************************************************************** 
+*
+*	15. Write a program remove specified a charcter from a non-empty
+*		string using index of a character.
+*
+*
+* 	By: Jesus Hilario Hernandez
+* 	Last Updated: October 6th 2017
+*
+*
+********************************************************************/
 using System;
 
-public class Program
+public class Exercise_16
 {
 	public static void Main()
 	{
@@ -31,3 +42,6 @@ public class Program
 		return ustr.Length > 1 ? ustr.Substring(ustr.Length - 1) + ustr.Substring(1, ustr.Length - 2) + ustr.Substring(0, 1) : ustr;
 	}
 }
+
+// RESOURCES USED: 
+// 1. https://msdn.microsoft.com/en-us/library/czx8s9ts(v=vs.110).aspx
