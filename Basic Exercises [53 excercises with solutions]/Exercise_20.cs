@@ -1,6 +1,6 @@
 /********************************************************************
 *
-*	19. Write a program to get the absolute value of the difference
+*	20. Write a program to get the absolute value of the difference
 *	    between two given numbers. Return double the absolute value
 *		of the difference if the first number is greater than second
 *		number.
@@ -12,30 +12,33 @@
 *
 ********************************************************************/
 using System;
-					
-public class Program
+
+public class Exercise_20
 {
 	public static void Main()
 	{
-		
-		var num1 = 29; var num2 = 2;
+		Console.WriteLine("Enter first number: ");
+		var num1 = Convert.ToInt32(Console.ReadLine());
+
+		Console.WriteLine("Enter second number: ");
+		var num2 = Convert.ToInt32(Console.ReadLine());
+
 		if (num1 > num2)
 		{
-			return (num1 - num2) * 2;
+			Console.WriteLine("(" + num1 + " - " + num2 + ")" + " x " + 2 + " = " + (num1 - num2) * 2);
 		}
 		else
 		{
-			
+			Console.WriteLine(num1 + " - " + num2 + " = " + (num1 - num2));
 		}
-		Console.WriteLine();
-		
-		
+
+
 		// W3resource Reply
-		
+
 	}
-	
+
 	//public static int result (int a, int b)
 	//{
-		
+
 	//}
 }
