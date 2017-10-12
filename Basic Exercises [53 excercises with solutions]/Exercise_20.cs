@@ -17,6 +17,9 @@ public class Exercise_20
 {
 	public static void Main()
 	{
+		/************************
+		 *	Jesus' Solution
+		 ************************/
 		Console.WriteLine("Enter first number: ");
 		var num1 = Convert.ToInt32(Console.ReadLine());
 
@@ -32,6 +35,9 @@ public class Exercise_20
 			Console.WriteLine(num1 + " - " + num2 + " = " + (num1 - num2));
 		}
 
+		result2(26, 5);
+		result2(67, 90);
+		result2(5, 23);
 
 		/**************************
 		 *	W3resource's Solution
@@ -47,5 +53,28 @@ public class Exercise_20
 		if (a > b)
 			return (a - b) * 2;
 		return b - a;
+	}
+
+	/***************************
+	 *	Jesus' Solution Methods
+	 ***************************/
+	public static void result2 (int x, int y)
+	{
+		Console.WriteLine("Enter first number: ");
+		x = Convert.ToInt32(Console.ReadLine());
+
+		Console.WriteLine("Enter second number: ");
+		y = Convert.ToInt32(Console.ReadLine());
+
+		if (x > y)
+		{
+			Console.WriteLine("(" + x + " - " + y + ")" + " x " + 2 + " = " + (x - y) * 2);
+		}
+		else
+		{
+			Console.WriteLine(x + " - " + y + " = " + (x - y));
+		}
+
+
 	}
 }
