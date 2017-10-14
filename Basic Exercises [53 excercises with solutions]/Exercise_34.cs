@@ -1,7 +1,6 @@
 /********************************************************************
 *
-*	34. Write a program to check two given numbers where one is less
-*       than 100 and other is greater than 200.
+*	34. Write a program to check if a string starts with a specified word.
 *
 * 	By: Jesus Hilario Hernandez
 * 	Last Updated: October 14th 2017
@@ -18,30 +17,24 @@ public class Exercise_34
 		/************************
 		 *	Jesus' Solution
 		 ************************/
-		Console.WriteLine("Enter 1st number(<100): ");
-		var number = Convert.ToInt32(Console.ReadLine());
-		Console.WriteLine("Enter 2nd number(>200): ");
-		var number2 = Convert.ToInt32(Console.ReadLine());
-		var condition = number < 100 && number2 > 200;
-
-		//if (condition)
-		//	Console.WriteLine(condition);
-		//else
-		//	Console.WriteLine(condition);
-
+		Console.Write("Input a string: ");
+		var string1 = Convert.ToString(Console.ReadLine());
+		// Console.WriteLine(string1.Substring(5) == "Hello");
 
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/
-		Console.WriteLine(condition + "\n");
+		Console.WriteLine(string1.StartsWith("Hello"));
 
 		/**************************
 		 *	W3resource's Solution
 		 **************************/
-		Console.Write("Input a first number(<100): ");
-        int m = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Input a second number(>100): ");
-        int n = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine((m < 100 && n > 200) || (m < 100 && n > 200));
+		string str;
+           Console.Write("Input a string : ");
+           str = Console.ReadLine();
+
+		   var condition1 = (str.Length < 6 && str.Equals("Hello"));
+		   var condition2 = (str.StartsWith("Hello") && str[5] == ' ');
+           Console.WriteLine(condition1 || condition2);
 	}
 }
