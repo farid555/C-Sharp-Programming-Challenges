@@ -29,9 +29,12 @@ public class Exercise_33
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/
-		var cond = number % 3 == 0 || number % 7 == 0 || number > 0;
-		if (cond)
+		var cond = number % 3 == 0 || number % 7 == 0;
+		if (number > 0)
 			Console.WriteLine(cond);
+		else
+			Console.WriteLine("Must be a positive number");
+
 
 		/**************************
 		 *	W3resource's Solution
