@@ -1,12 +1,13 @@
 /********************************************************************
 *
-*	47. Write a C# program to compute the sum of all the
-*			elements of an array of integers.
+*	48. Write a C# program to check if the first element and the last
+*		  element are equal of an array of integers and the length
+*			is 1 or more.
 *
 *		Test Data:
 *		Array1: [1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 1]
 *		Sample Output
-*		Sum: 69
+*		True
 *
 * 	By: Jesus Hilario Hernandez
 * 	Last Updated: October 20th 2017
@@ -16,7 +17,7 @@
 using System;
 using System.Linq;
 
-public class Exercise_47
+public class Exercise_48
 {
 	public static void Main()
 	{
@@ -24,34 +25,38 @@ public class Exercise_47
 		 *	Jesus' Solution
 		 ************************/
 		var Array1 = new int[] {1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 1};
-		Console.WriteLine("Sum: {0}", Array1.Sum());
+		var Array2 = new int[] {};
 
-		var sum = 0;
-		foreach (int n in Array1)
-			sum += n;
-		Console.WriteLine("Sum: {0}", sum);
-
-		var sum2 = 0;
 		for (var i = 0; i < Array1.Length; i++)
-			sum2 += Array1[i];
-		Console.WriteLine("Sum: {0}", sum2);
+		{
+			if(Array1[i] == Array1.First() + Array1.Last())
+			{
+				Array2[i] = Array1[i];
+			}
+    	}
+
+
+
+		foreach (int n in Array1)
+		{
+			if(n == Array1.First() + Array1.Last())
+			{
+				Array2[] = n;
+			}
+			else
+			{
+				Console.WriteLine("False");
+			}BackgroundColor
+		}
+
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/
-		Console.WriteLine("\nArray1: [{0}]", string.Join(", ", Array1));
-		Console.WriteLine("\n");
 
 		/**************************
 		 *	W3resource's Solution
 		 **************************/
-		int[] nums = {1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 1};
-		Console.WriteLine("\nArray1: [{0}]", string.Join(", ", nums));
-		var sum3 = 0;
-			for (var i = 0; i < nums.Length; i++)
-			{
-				sum3 += nums[i];
-			}
-			Console.WriteLine("Sum: " + sum3);
+
 	}
 
 }
