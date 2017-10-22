@@ -15,6 +15,9 @@ public class Exercise_19
 {
 	public static void Main()
 	{
+		/************************
+		 *	Jesus' Solution
+		 ************************/
 		Console.WriteLine("Enter your first number: ");
 		var firstNumber = Convert.ToInt32(Console.ReadLine());
 

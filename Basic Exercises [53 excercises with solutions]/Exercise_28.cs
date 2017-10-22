@@ -17,7 +17,7 @@ public class Exercise_28
 		/************************
 		 *	Jesus' Solution
 		 ************************/
-
+		// NADA
 
 		/*******************************************
 		 *	Jesus' Solution After checking response
@@ -26,24 +26,16 @@ public class Exercise_28
 		Console.WriteLine("Original String: " + sentence2);
 
 		string result2 = "";
-
-
 		List <string> wordsList2 = new List <string> ();
-
-
 
 		string[] words2 = sentence2.Split(new[] {
 			" "
 		}, StringSplitOptions.None);
 
-
-
 		foreach(String s in words2)
 		{
 			Console.WriteLine(s);
 		}
-
-
 
 		for (int i = words2.Length - 1; i >= 0; i--)
 		{
@@ -55,9 +47,6 @@ public class Exercise_28
 		{
 			Console.WriteLine("\nReverse String: " + s);
 		}
-
-
-
 		/**************************
 		 *	W3resource's Solution
 		 **************************/

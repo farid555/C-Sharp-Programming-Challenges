@@ -29,25 +29,29 @@ public class Exercise_48
 
 		for (var i = 0; i < Array1.Length; i++)
 		{
-			if(Array1[i] == Array1.First() + Array1.Last())
+			if(Array1[i] == Array1.First() + Array1.Last() && Array1[i] >= 1)
 			{
 				Array2[i] = Array1[i];
-			}
-    	}
-
-
-
-		foreach (int n in Array1)
-		{
-			if(n == Array1.First() + Array1.Last())
-			{
-				Array2[] = n;
 			}
 			else
 			{
 				Console.WriteLine("False");
-			}BackgroundColor
+			}
+    	}
+		Console.WriteLine(Array1.First() + Array1.Last());
+
+		foreach (int n in Array1)
+		{
+			if(n == Array1.First() + Array1.Last() && Array1[n] >= 1)
+			{
+				Array2[n] = Array1[n];
+			}
+			else
+			{
+				Console.WriteLine("False");
+			}
 		}
+
 
 		/*******************************************
 		 *	Jesus' Solution After checking response

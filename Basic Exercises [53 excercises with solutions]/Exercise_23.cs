@@ -25,13 +25,6 @@ public class Exercise_23
 		lowercaseString = Convert.ToString(Console.ReadLine()).ToLower();
 		Console.WriteLine(lowercaseString + "\n");
 
-
-		/*******************************************
-		 *	Jesus' Solution After checking response
-		 *******************************************/
-		// Nada
-		
-
 		/**************************
 		 *	W3resource's Solution
 		 **************************/

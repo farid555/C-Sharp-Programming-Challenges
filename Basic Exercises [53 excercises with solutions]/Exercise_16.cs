@@ -1,4 +1,4 @@
-/******************************************************************** 
+/********************************************************************
 *
 *	16. Write a program remove specified a charcter from a non-empty
 *	    string using index of a character.
@@ -15,6 +15,9 @@ public class Exercise_16
 {
 	public static void Main()
 	{
+		/************************
+		 *	Jesus' Solution
+		 ************************/
 		var firstString = "w3resource";
 		var secondString = "Python";
 		var firstLetter = firstString.Remove(1, 9);
@@ -25,13 +28,10 @@ public class Exercise_16
 		Console.WriteLine(firstString.Substring(9) + firstString.Remove(0, 1).Remove(8) + firstLetter);
 		Console.WriteLine(secondString.Substring(5) + secondString.Remove(0, 1).Remove(4) + secondFirstLetter);
 		Console.WriteLine();
-		
-		/*************************
-		 *
-		 *	w3resource's Solution
-		 *
-		 *************************/
-		
+
+		/**************************
+		 *	W3resource's Solution
+		 **************************/
 		Console.WriteLine(first_last("w3resource"));
 		Console.WriteLine(first_last("Python"));
 		Console.WriteLine(first_last("x"));
@@ -43,5 +43,5 @@ public class Exercise_16
 	}
 }
 
-// RESOURCES USED: 
+// RESOURCES USED:
 // 1. https://msdn.microsoft.com/en-us/library/czx8s9ts(v=vs.110).aspx

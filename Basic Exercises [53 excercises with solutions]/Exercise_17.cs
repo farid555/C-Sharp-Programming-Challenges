@@ -1,7 +1,7 @@
-/******************************************************************** 
+/********************************************************************
 *
-*	17. Write a program to create a new string from a given string 
-*		(length 1 or more) with the first character added at the 
+*	17. Write a program to create a new string from a given string
+*		(length 1 or more) with the first character added at the
 * 		front and back.
 *
 *
@@ -16,12 +16,15 @@ public class Exercise_17
 {
 	public static void Main()
 	{
+		/************************
+		 *	Jesus' Solution
+		 ************************/
 		Console.WriteLine("Input a string: ");
-		
+
 		var firstString = Console.ReadLine();
 		var firstLetter = firstString.Substring(0, 1);
 		Console.WriteLine(firstLetter + firstString + firstLetter);
-		
+
 		/**************************
 		 *	W3resource's Solution
 		 **************************/

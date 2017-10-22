@@ -19,14 +19,11 @@ public class Exercise_29
 		 *	Jesus' Solution
 		 ************************/
 		// Nada
-
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/
 		FileInfo g = new FileInfo("/grand/flash/happyness/is/me.txt");
 		Console.WriteLine("\nSize of a file: " + g.Length.ToString());
-
-
 
 		/**************************
 		 *	W3resource's Solution

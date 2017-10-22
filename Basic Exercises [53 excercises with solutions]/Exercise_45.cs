@@ -23,10 +23,7 @@ public class Exercise_45
 		/************************
 		 *	Jesus' Solution
 		 ************************/
-
-		/*******************************************
-		 *	Jesus' Solution After checking response
-		 *******************************************/
+		//NADA
 
 		/**************************
 		 *	W3resource's Solution

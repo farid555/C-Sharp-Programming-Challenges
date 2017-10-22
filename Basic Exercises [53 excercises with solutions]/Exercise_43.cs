@@ -26,9 +26,6 @@ public class Exercise_43
 		Console.WriteLine("Input a string: ");
 		var string1 = Convert.ToString(Console.ReadLine());
 		Console.WriteLine(string1.Substring(0,1) == "w" && string1.Substring(1,2) == "ww");
-		/*******************************************
-		 *	Jesus' Solution After checking response
-		 *******************************************/
 
 		/**************************
 		 *	W3resource's Solution
