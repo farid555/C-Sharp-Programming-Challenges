@@ -1,10 +1,10 @@
 /********************************************************************
 *
-*	02. Write a C# Sharp program that takes a number and a width also 
-*		a number, as input and then displays a triangle of that width, 
-*		using that number.
+*	04. Write a C# Sharp program that takes a number and a width also 
+*	    a number, as input and then displays a triangle of that width, 
+*	    using that number.
 *
-*		Test Data
+*           Test Data
 *		Enter a number: 6 
 *		Enter the desired width: 6 
 *		Expected Output :
@@ -23,7 +23,7 @@
 ********************************************************************/
 using System;
 
-public class Exercise_02
+public class Exercise_04
 {
 	public static void Main()
 	{
