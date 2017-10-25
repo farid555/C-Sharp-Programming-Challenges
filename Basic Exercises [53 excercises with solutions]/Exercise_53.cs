@@ -12,7 +12,6 @@
 ********************************************************************/
 using System;
 
-
 public class Exercise_53
 {
 	public static void Main()
