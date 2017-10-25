@@ -30,14 +30,41 @@ public class Exercise_02
 		/************************
 		 *	Jesus' Solution
 		 ************************/
-		
+		Console.Write("Enter a #: ");
+		var userNum = Convert.ToInt32(Console.ReadLine());
+		Console.Write("Enter a width: ");
+		var userWidth = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Expected Output: \n");
+		for (var i = userWidth; i > 0; i--)
+		{
+			for (var j = 0; j < i; j++)
+			{		
+				Console.Write(userNum);
+			}
+			Console.WriteLine();
+		}
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/
-		
+		Console.WriteLine();
 		/**************************
 		 *	W3resource's Solution
 		 **************************/
-
+		Console.Write("Input a number: ");
+   		int num = Convert.ToInt32( Console.ReadLine() );
+ 
+	   	Console.Write("Input the desired width: ");
+   		int width = Convert.ToInt32( Console.ReadLine() );
+ 
+	   	int height = width;   
+   		for (int row=0; row < height; row++)
+   		{
+    		for (int column=0; column < width; column++)
+   			{
+   				Console.Write( num );
+  			}
+   		Console.WriteLine();
+   		width--;
+  		}
 	}
 }
