@@ -68,3 +68,4 @@ public class Exercise_04
             Console.WriteLine("Wrong Character");
 	}
 }
+// Resource Used For Switch Statement: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/switch
