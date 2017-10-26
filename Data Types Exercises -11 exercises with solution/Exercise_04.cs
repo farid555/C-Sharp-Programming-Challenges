@@ -28,7 +28,7 @@ public class Exercise_04
 		Console.WriteLine("Input first #: ");
 		var firstNum = Convert.ToInt32(Console.ReadLine());
 		Console.WriteLine("Input operation: ");
-		var operation = Convert.ToChar(Console.ReadLine());
+		var operation2 = Convert.ToChar(Console.ReadLine());
 		Console.WriteLine("Input second #: ");
 		var secondNum = Convert.ToInt32(Console.ReadLine());
 		// Console.WriteLine("{0} {1} {2} = {3}", firstNum, operation, secondNum, (Convert.ToString(firstNum + operation + secondNum)));
@@ -36,12 +36,28 @@ public class Exercise_04
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/
-		switch (Convert.ToString(operation))
+		switch (Convert.ToString(operation2))
 		{
 			case "-": 
-				Console.WriteLine("Hello");
+			Console.WriteLine("{0} - {1} = {2}", firstNum, secondNum, (firstNum - secondNum));
 				break;
-			
+			case "+":
+			Console.WriteLine("{0} + {1} = {2}", firstNum, secondNum, (firstNum + secondNum));
+				break;
+			case "x":
+			case "X":
+			case "*":
+			Console.WriteLine("{0} x {1} = {2}", firstNum, secondNum, (firstNum * secondNum));
+				break;
+			case "/":
+			Console.WriteLine("{0} / {1} = {2}", firstNum, secondNum, (firstNum / secondNum));
+				break;
+			case "%":
+			Console.WriteLine("{0} % {1} = {2}", firstNum, secondNum, (firstNum % secondNum));
+				break;
+			default: 
+				Console.WriteLine("SORRY! An operation must be entered.");
+				break;
 		}
 		/**************************
 		 *	W3resource's Solution
@@ -68,4 +84,3 @@ public class Exercise_04
             Console.WriteLine("Wrong Character");
 	}
 }
-// Resource Used For Switch Statement: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/switch
