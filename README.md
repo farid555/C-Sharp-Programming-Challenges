@@ -6,9 +6,9 @@ This repository contains exercises and solutions to problems found throughout th
 2. Data Types Exercises [11 exercises with solutions]. <a href="https://github.com/jesushilarioh/Questions-and-Exercises-in-C-Sharp/tree/master/Data%20Types%20Exercises%20%5B11%20exercises%20with%20solutions%5D" target="_blank">Solutions</a>
 
 ## Topics
-1. <a href="https://github.com/jesushilarioh/Questions-and-Exercises-in-C-Sharp/tree/master/Arrays" target="_blank">Arrays</a>
-2. <a href="https://github.com/jesushilarioh/Questions-and-Exercises-in-C-Sharp/tree/master/Numbers" target="_blank">Numbers</a>
-3. <a href="https://github.com/jesushilarioh/Questions-and-Exercises-in-C-Sharp/tree/master/Strings" target="_blank">Strings</a>
+   1. <a href="https://github.com/jesushilarioh/Questions-and-Exercises-in-C-Sharp/tree/master/Arrays" target="_blank">Arrays</a>
+   2. <a href="https://github.com/jesushilarioh/Questions-and-Exercises-in-C-Sharp/tree/master/Numbers" target="_blank">Numbers</a>
+   3. <a href="https://github.com/jesushilarioh/Questions-and-Exercises-in-C-Sharp/tree/master/Strings" target="_blank">Strings</a>
 
 ## Iteration Statements
 1. <a href="https://github.com/jesushilarioh/Questions-and-Exercises-in-C-Sharp/tree/master/Iteration%20Statements/do%20while" target="_blank">do while</a>
