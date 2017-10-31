@@ -1,50 +1,70 @@
 /********************************************************************
 *
-*	06. Write a C# Sharp program to display certain values of the
-*	    function x = y2 + 2y + 1 (using integer numbers for y ,
-*	    ranging from -5 to +5).
+*	02. Write a C# Sharp program that takes a number and a width also 
+*		a number, as input and then displays a triangle of that width, 
+*		using that number.
 *
+*		Test Data
+*		Enter a number: 6 
+*		Enter the desired width: 6 
+*		Expected Output :
+*
+*		666666                                                      
+*		66666                                                           
+*		6666                                                                  
+*		666                                                        
+*		66                                                                  
+*		6 
 *
 * 	By: Jesus Hilario Hernandez
-* 	Last Updated: October 26th 2017
+* 	Last Updated: October 25th 2017
 *
 *
 ********************************************************************/
 using System;
 
-public class Exercise_06
+public class Exercise_02
 {
 	public static void Main()
 	{
 		/************************
 		 *	Jesus' Solution
 		 ************************/
-		for (var i = -5; i <= 5; i++)
+		Console.Write("Enter a #: ");
+		var userNum = Convert.ToInt32(Console.ReadLine());
+		Console.Write("Enter a width: ");
+		var userWidth = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Expected Output: \n");
+		for (var i = userWidth; i > 0; i--)
 		{
-			var x2 = (i * i) - (2 * i) + 1;
-			// Console.Write("y = {0}; ", i);
-			Console.WriteLine("x = {0}\xB2  + 2({0}) + 1 = {1}; While y = {0}", i, x2);
-
+			for (var j = 0; j < i; j++)
+			{		
+				Console.Write(userNum);
+			}
+			Console.WriteLine();
 		}
-
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/
 		Console.WriteLine();
-
 		/**************************
 		 *	W3resource's Solution
 		 **************************/
-		int x, y;
-
-        Console.WriteLine("x = y² - 2y +1");
-        Console.WriteLine();
-
-       	for (y=-5; y <= 5; y++)
-        {
-						x = y*y - 2*y + 1;
-            Console.WriteLine(
-            "y = {0} ; x=({0})² - 2*({0}) +1 = {1}", y, x);
-        }
+		Console.Write("Input a number: ");
+   		int num = Convert.ToInt32( Console.ReadLine() );
+ 
+	   	Console.Write("Input the desired width: ");
+   		int width = Convert.ToInt32( Console.ReadLine() );
+ 
+	   	int height = width;   
+   		for (int row=0; row < height; row++)
+   		{
+    		for (int column=0; column < width; column++)
+   			{
+   				Console.Write( num );
+  			}
+   		Console.WriteLine();
+   		width--;
+  		}
 	}
 }

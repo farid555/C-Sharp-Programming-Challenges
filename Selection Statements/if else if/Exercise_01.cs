@@ -1,8 +1,15 @@
 /********************************************************************
 *
-*	03. Write a C# Sharp program that takes user id and 
-*		password as input (type string). After 3 wrong 
-*		attempts, user will be rejected. 
+*	04. Write a C# Sharp program that takes two numbers as input and 
+*		perform an operation (+,-,*,x,/) on them and
+*		displays the result of that operation.
+*
+*		Test Data
+*		Input first number: 20
+*		Input operation: - 
+*	 	Input second number: 12
+*		Expected Output :
+*		20 - 12 = 8
 *
 * 	By: Jesus Hilario Hernandez
 * 	Last Updated: October 25th 2017
@@ -11,81 +18,69 @@
 ********************************************************************/
 using System;
 
-public class Exercise_03
+public class Exercise_04
 {
 	public static void Main()
 	{
 		/************************
 		 *	Jesus' Solution
 		 ************************/
-		// Console.WriteLine("Enter a user id: ");
-		// var userId = Convert.ToString(Console.ReadLine());
-		// Console.WriteLine("Enter a user id: ");
-		// var userPassword = Convert.ToString(Console.ReadLine());
+		Console.WriteLine("Input first #: ");
+		var firstNum = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Input operation: ");
+		var operation2 = Convert.ToChar(Console.ReadLine());
+		Console.WriteLine("Input second #: ");
+		var secondNum = Convert.ToInt32(Console.ReadLine());
+		// Console.WriteLine("{0} {1} {2} = {3}", firstNum, operation, secondNum, (Convert.ToString(firstNum + operation + secondNum)));
 		
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/
-		var key = "password"; 
-		string userId, userPassword;
-		int counter = 0;
-		bool counterBool;
-		do
+		switch (Convert.ToString(operation2))
 		{
-			Console.WriteLine("Enter a user id: ");
-			userId = Convert.ToString(Console.ReadLine());
-			Console.WriteLine("Enter a password: ");
-			userPassword = Convert.ToString(Console.ReadLine());
-			if (userId == key && userPassword == key)
-			{
-				counter = 3; 
-				counterBool = true;
-			}			
-			else
-			{
-				counter++;
-				counterBool = false;
-			}
-				
-		} while ((userId != key || userPassword != key) && (counter != 3));
-		if (counterBool)
-			Console.WriteLine("Correct User Id and Password");
-		else
-			Console.WriteLine("Login attemt more that three times. Try again later.");
-		
+			case "-": 
+			Console.WriteLine("{0} - {1} = {2}", firstNum, secondNum, (firstNum - secondNum));
+				break;
+			case "+":
+			Console.WriteLine("{0} + {1} = {2}", firstNum, secondNum, (firstNum + secondNum));
+				break;
+			case "x":
+			case "X":
+			case "*":
+			Console.WriteLine("{0} x {1} = {2}", firstNum, secondNum, (firstNum * secondNum));
+				break;
+			case "/":
+			Console.WriteLine("{0} / {1} = {2}", firstNum, secondNum, (firstNum / secondNum));
+				break;
+			case "%":
+			Console.WriteLine("{0} % {1} = {2}", firstNum, secondNum, (firstNum % secondNum));
+				break;
+			default: 
+				Console.WriteLine("SORRY! An operation must be entered.");
+				break;
+		}
 		/**************************
 		 *	W3resource's Solution
 		 **************************/
-		string username, password;
-		int ctr = 0, dd = 0;
-		Console.Write("\n\nCheck username and password :\n");
-		Console.Write("N.B. : Defaule username and password is : username and password\n");
-		Console.Write("---------------------------------\n");
-		do
-		{
-			Console.Write("Input a username: ");
-			username = Console.ReadLine();
-			Console.Write("Input a password: ");
-			password = Console.ReadLine();
-			if (username == "username" && password == "password")
-			{
-				dd = 1;
-				ctr = 3;
-			}
-			else
-			{
-				dd = 0;
-				ctr++;
-			}
-		}
-		while ((username != "username" || password != "password") && (ctr != 3));
-		if (dd == 0)
-		{
-			Console.Write("\nLogin attemp more than three times. Try later!\n\n");
-		}
-		else if (dd == 1)
-		{
-			Console.Write("\nPassword entered successfull!\n\n");
-		}
+		int x, y;
+        char operation;
+         
+        Console.Write("Input first number: ");
+        x = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input operation: ");
+        operation = Convert.ToChar(Console.ReadLine());
+        Console.Write("Input second number: ");
+        y = Convert.ToInt32(Console.ReadLine());
+         
+        if (operation=='+')
+            Console.WriteLine("{0} + {1} = {2}", x, y, x+y);
+        else if (operation=='-')
+            Console.WriteLine("{0} - {1} = {2}", x, y, x-y);
+        else if ((operation=='x') || (operation=='*'))
+            Console.WriteLine("{0} * {1} = {2}", x, y, x*y);
+        else if (operation=='/')
+            Console.WriteLine("{0} / {1} = {2}", x, y, x/y);
+        else
+            Console.WriteLine("Wrong Character");
 	}
 }
