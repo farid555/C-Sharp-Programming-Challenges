@@ -1,6 +1,6 @@
 /********************************************************************
 *
-*		00. Write a program 
+*	00. Write a program
 *
 * 	By: Jesus Hilario Hernandez
 * 	Last Updated: October 25th 2017
