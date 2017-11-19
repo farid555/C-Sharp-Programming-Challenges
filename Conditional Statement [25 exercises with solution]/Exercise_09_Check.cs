@@ -24,7 +24,7 @@ public class Exercise_09
 		/************************
 		 *	Jesus' Solution
 		 ************************/
-
+		Console.WriteLine("");
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/

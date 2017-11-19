@@ -46,7 +46,19 @@ public class Exercise_08
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/
-
+		Console.WriteLine();
+		Console.WriteLine("--- A Second Time ---");
+		if (firstNum > secondNum)
+		{
+			if (firstNum > thirdNum)
+				Console.WriteLine("The first number is the greatest # among the three.");
+			else
+				Console.WriteLine("The third number is greatest among the three.");
+		}
+		else if (secondNum > thirdNum)
+			Console.WriteLine("The second number among the three is greatest.");
+		else
+			Console.WriteLine("The third number is greatest among the three.");
 		/**************************
 		 *	W3resource's Solution
 		 **************************/
