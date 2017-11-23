@@ -31,7 +31,15 @@ public class Exercise_09
 		/************************
 		 *	Jesus' Solution
 		 ************************/
+		Console.Write("Input the marks obtained in Physics: ");
+		var physicsGrade = Convert.ToInt32(Console.ReadLine());
+		Console.Write("Input the marks obtained in Chemistry: ");
+		var chemistryGrade = Convert.ToInt32(Console.ReadLine());
+		Console.Write("Input the marks obtained in Mathematics: ");
+		var mathematicsGrade = Convert.ToInt32(Console.ReadLine());
 
+		if ((physicsGrade >= 55 && chemistryGrade >= 50 && mathematicsGrade >= 65) || (physicsGrade + chemistryGrade + mathematicsGrade >= 180))
+			Console.WriteLine("The candidate is eligible for admission.");
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/
