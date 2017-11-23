@@ -40,6 +40,7 @@ public class Exercise_09
 
 		if ((physicsGrade >= 55 && chemistryGrade >= 50 && mathematicsGrade >= 65) || (physicsGrade + chemistryGrade + mathematicsGrade >= 180))
 			Console.WriteLine("The candidate is eligible for admission.");
+			
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/
