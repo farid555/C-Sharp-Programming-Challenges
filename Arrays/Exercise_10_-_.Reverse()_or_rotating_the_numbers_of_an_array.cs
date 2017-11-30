@@ -23,8 +23,9 @@ public class Exercise_50
 		 *	Jesus' Solution
 		 ************************/
 		var Array1 = new int[] {1, 2, 8};
-		// Array.Reverse(Array1);
-		// Console.WriteLine("Array1: [{0}]", string.Join(", ", Array1));
+ 		// Console.WriteLine("Array1: [{0}]", string.Join(", ", Array1));
+ 		// Array.Reverse(Array1);
+ 		// Console.WriteLine("Array1 Reversed: [{0}]", string.Join(", ", Array1));
 
 		/*******************************************
 		 *	Jesus' Solution After checking response

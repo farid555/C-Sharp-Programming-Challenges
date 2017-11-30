@@ -55,6 +55,7 @@ public class Exercise_12
 
 		Console.WriteLine("Total Marks = {0}", numbers.Sum());
 		Console.WriteLine("Percentage = {0}", Math.Round(numbers.Average(), 1));
+		Console.WriteLine("Number of grades is: {0}", numbers.Count());
 
 		/*******************************************
 		 *	Jesus' Solution After checking response
