@@ -57,7 +57,7 @@ public class Exercise_48
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/
-		Console.WriteLine((Array1.Length >= 1) && (Array1.Last().Equals(Array1.Last())));
+		Console.WriteLine((Array1.Length >= 1) && (Array1.First().Equals(Array1.Last())));
 		Console.WriteLine((Array1.Length >= 1) && (Array1[0] == Array1[Array1.Length - 1]));
 
 		/**************************
