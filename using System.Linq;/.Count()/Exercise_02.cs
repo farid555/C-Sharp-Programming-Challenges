@@ -70,7 +70,7 @@ public class Exercise_12
 			Console.WriteLine("Final Grade: C");
 		else if (average >= 0 && average <= 69)
 			Console.WriteLine("Final Grade: F");
-
+			
 		/**************************
 		 *	W3resource's Solution
 		 **************************/
@@ -101,11 +101,13 @@ public class Exercise_12
 		per = total/3.0;
 		if (per>=60)
 		 	div="First";
-		else if (per<60&&per>=48)
-		    div="Second";
-		else if (per<48&&per>=36)
-			div="Pass";
 		else
+		if (per<60&&per>=48)
+		    div="Second";
+		else
+		    if (per<48&&per>=36)
+			div="Pass";
+		     else
 			div="Fail";
 
         Console.Write("\nRoll No : {0}\nName of Student : {1}\n",rl,nm);
