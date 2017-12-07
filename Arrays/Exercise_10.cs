@@ -14,7 +14,6 @@
 ********************************************************************/
 using System;
 
-
 public class Exercise_50
 {
 	public static void Main()
@@ -25,7 +24,7 @@ public class Exercise_50
 		var Array1 = new int[] {1, 2, 8};
  		// Console.WriteLine("Array1: [{0}]", string.Join(", ", Array1));
  		// Array.Reverse(Array1);
- 		// Console.WriteLine("Array1 Reversed: [{0}]", string.Join(", ", Array1));
+ 		// Console.WriteLine("\nArray1 Reversed: [{0}]", string.Join(", ", Array1));
 
 		/*******************************************
 		 *	Jesus' Solution After checking response
@@ -35,6 +34,7 @@ public class Exercise_50
 		// for (var i = 0; i < 2; i++) // 2 Same as Array.Length - 1;
 		for (var i = 0; i < Array1.Length - 1; i++) // Array.Length - 1 Same as 2;
 			Array1[i] = Array1[i + 1];
+
 		Array1[Array1.Length - 1] = temp2;
 		Console.WriteLine("\nAfter rotating, the array becomes: [{0}]", string.Join(", ", Array1));
 
