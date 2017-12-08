@@ -1,4 +1,4 @@
-/********************************************************************
+6/********************************************************************
 *
 *	49. Write a C# program to check if the first element or the last
 *		element of the two arrays ( length 1 or more) are equal.
