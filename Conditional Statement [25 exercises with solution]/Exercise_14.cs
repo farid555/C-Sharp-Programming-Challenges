@@ -1,7 +1,7 @@
 /********************************************************************
 *
 *	14. Write a C# Sharp program to check whether a triangle is Equilateral,
-*		Isosceles or Scalene. Go to the editor
+*		Isosceles or Scalene.
 *		Test Data :
 *		50 50 60
 *		Expected Output :
