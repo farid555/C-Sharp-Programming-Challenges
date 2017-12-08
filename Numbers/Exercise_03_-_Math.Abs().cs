@@ -10,7 +10,6 @@
 ********************************************************************/
 using System;
 
-
 public class Exercise_40
 {
 	public static void Main()
