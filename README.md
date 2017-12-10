@@ -6,7 +6,7 @@ This repository contains exercises and solutions to problems found throughout th
 2. Data Types Exercises [11 exercises with solutions]. <!-- <a href="https://github.com/jesushilarioh/Questions-and-Exercises-in-C-Sharp/tree/master/Data%20Types%20Exercises%20%5B11%20exercises%20with%20solutions%5D" target="_blank">Solutions</a> -->
 3. Conditional Statement [25 exercises with solution]. <!-- <a href="https://github.com/jesushilarioh/Questions-and-Exercises-in-C-Sharp/tree/master/Data%20Types%20Exercises%20%5B11%20exercises%20with%20solutions%5D" target="_blank">Solutions</a> -->
 
-# Topics
+## Topics
 1. Arrays<!-- <a href="https://github.com/jesushilarioh/Questions-and-Exercises-in-C-Sharp/tree/master/Arrays" target="_blank">Arrays</a> -->
 2. Numbers<!-- <a href="https://github.com/jesushilarioh/Questions-and-Exercises-in-C-Sharp/tree/master/Numbers" target="_blank">Numbers</a> -->
 3. Strings<!-- <a href="https://github.com/jesushilarioh/Questions-and-Exercises-in-C-Sharp/tree/master/Strings" target="_blank">Strings</a> -->
