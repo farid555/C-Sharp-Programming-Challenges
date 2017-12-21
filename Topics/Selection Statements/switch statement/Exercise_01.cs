@@ -1,12 +1,12 @@
 /********************************************************************
 *
-*	04. Write a C# Sharp program that takes two numbers as input and 
+*	04. Write a C# Sharp program that takes two numbers as input and
 *		perform an operation (+,-,*,x,/) on them and
 *		displays the result of that operation.
 *
 *		Test Data
 *		Input first number: 20
-*		Input operation: - 
+*		Input operation: -
 *	 	Input second number: 12
 *		Expected Output :
 *		20 - 12 = 8
@@ -32,30 +32,30 @@ public class Exercise_04
 		Console.WriteLine("Input second #: ");
 		var secondNum = Convert.ToInt32(Console.ReadLine());
 		// Console.WriteLine("{0} {1} {2} = {3}", firstNum, operation, secondNum, (Convert.ToString(firstNum + operation + secondNum)));
-		
+
 		/*******************************************
 		 *	Jesus' Solution After checking response
 		 *******************************************/
 		switch (Convert.ToString(operation2))
 		{
-			case "-": 
-			Console.WriteLine("{0} - {1} = {2}", firstNum, secondNum, (firstNum - secondNum));
+			case "-":
+				Console.WriteLine("{0} - {1} = {2}", firstNum, secondNum, (firstNum - secondNum));
 				break;
 			case "+":
-			Console.WriteLine("{0} + {1} = {2}", firstNum, secondNum, (firstNum + secondNum));
+				Console.WriteLine("{0} + {1} = {2}", firstNum, secondNum, (firstNum + secondNum));
 				break;
 			case "x":
 			case "X":
 			case "*":
-			Console.WriteLine("{0} x {1} = {2}", firstNum, secondNum, (firstNum * secondNum));
+				Console.WriteLine("{0} x {1} = {2}", firstNum, secondNum, (firstNum * secondNum));
 				break;
 			case "/":
-			Console.WriteLine("{0} / {1} = {2}", firstNum, secondNum, (firstNum / secondNum));
+				Console.WriteLine("{0} / {1} = {2}", firstNum, secondNum, (firstNum / secondNum));
 				break;
 			case "%":
-			Console.WriteLine("{0} % {1} = {2}", firstNum, secondNum, (firstNum % secondNum));
+				Console.WriteLine("{0} % {1} = {2}", firstNum, secondNum, (firstNum % secondNum));
 				break;
-			default: 
+			default:
 				Console.WriteLine("SORRY! An operation must be entered.");
 				break;
 		}
@@ -64,14 +64,14 @@ public class Exercise_04
 		 **************************/
 		int x, y;
         char operation;
-         
+
         Console.Write("Input first number: ");
         x = Convert.ToInt32(Console.ReadLine());
         Console.Write("Input operation: ");
         operation = Convert.ToChar(Console.ReadLine());
         Console.Write("Input second number: ");
         y = Convert.ToInt32(Console.ReadLine());
-         
+
         if (operation=='+')
             Console.WriteLine("{0} + {1} = {2}", x, y, x+y);
         else if (operation=='-')
