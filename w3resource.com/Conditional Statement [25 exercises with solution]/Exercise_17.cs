@@ -9,7 +9,7 @@
 *		You can book your profit amount : 200
 *
 * 	By: Jesus Hilario Hernandez
-* 	Last Updated: October 25th 2017
+* 	Last Updated: Dec. 20th 2017
 *
 *
 ********************************************************************/

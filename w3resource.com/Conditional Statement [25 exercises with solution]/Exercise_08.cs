@@ -10,7 +10,7 @@
 *		The 2nd number is the greatest among the three.
 *
 * 	By: Jesus Hilario Hernandez
-* 	Last Updated: October 25th 2017
+* 	Last Updated: Nov. 7th 2017
 *
 *
 ********************************************************************/

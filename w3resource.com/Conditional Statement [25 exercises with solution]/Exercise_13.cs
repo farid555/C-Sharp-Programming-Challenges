@@ -15,7 +15,7 @@
 *		Its very hot.
 *
 * 	By: Jesus Hilario Hernandez
-* 	Last Updated: October 25th 2017
+* 	Last Updated: Nov. 30th 2017
 *
 *
 ********************************************************************/
@@ -72,7 +72,7 @@ public class Exercise_13
 
 		Console.Write("Input days temperature : ");
 		tmp= Convert.ToInt32(Console.ReadLine());
-		
+
 	    if(tmp<0)
 	              Console.Write("Freezing weather.\n");
 	    else if(tmp<10)
